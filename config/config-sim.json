@@ -1,0 +1,16 @@
+{
+  "openvibe-host"  : "127.0.0.1",
+  "openvibe-port"  : 5679,
+  "simulate"       : true,
+  "cntrlChannel"   : "AF7",
+  "time" : {
+    "updateEverySec"      : 5,
+    "takeOff"             : 3,
+    "maxLand"             : 360,
+    "rythmAnalyzeStart"   : 10
+  },
+  "defaultHeightCM" : 60,
+  "minimalStepCM"   : 30,
+  "speed"           : 20,
+  "power2height"    : [[20,300], [30,200]]
+}
